@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-newspage {
+  display: block;
+  font-size: smaller;
+}
+
+.padding-str {
+  background-color: white;
+  width: 360px;
+  padding-bottom: 1em;
+  border-radius: 1em;
+  padding-left: 1em;
+}
+
+.str {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  width: 340px;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid black;
+}
+
+.str p {
+  background-color: transparent;
+  cursor: pointer;
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+
+.str p:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.newsfeed {
+  display: flex;
+  gap: 0.3em;
+  position: relative;
+  width: 340px;
+  overflow: auto;
+  background-color: transparent;
+  border-radius: 1em;
+}
+
+.newsfeed::-webkit-scrollbar {
+  display: none;
+}
+
+/* .fc-next { */
+/* position: fixed;
+  right: 11em;
+  top: 6.8em;
+  font-size: 2em;
+  cursor: pointer;
+  background-color: rgb(0 0 0 / 0.5);
+  display: flex;
+  align-items: center; */
+/* }  */
+
+.stories-1 {
+  width: 90px;
+  height: 165px;
+  flex-shrink: 0;
+  border-radius: 1em;
+  background-color: white;
+}
+
+.stories-1-img {
+  width: initial;
+  height: 115px;
+  background-image: url("/public/my-pic/sergio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 50% right 50%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.fa-plus {
+  margin-top: 3.7em;
+  margin-left: 1.2em;
+  font-size: 2em;
+  padding: 8px;
+  color: #fff;
+  background-color: hsl(208, 92%, 48%);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+
+.create-story-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 15px;
+}
+
+.stories-block {
+  width: 90px;
+  height: 165px;
+  flex-shrink: 0;
+  border-radius: 1em;
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.absolute-img {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  margin: 7px 5px;
+  border: 3px solid hsl(208, 92%, 48%);
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stories-block-1,
+.absolute-img-1 {
+  background-image: url("/public/my-pic/wallpaper-preview-2.jpg");
+}
+
+.stories-block-2,
+.absolute-img-2 {
+  background-image: url("/public/my-pic/wallpaper-preview-3.jpg");
+}
+
+.stories-block-3,
+.absolute-img-3 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+}
+
+.stories-block-4,
+.absolute-img-4 {
+  background-image: url("/public/my-pic/wallpaper-preview-2.jpg");
+}
+
+.on-mind {
+  width: 350px;
+  padding: 1.2em;
+  border-radius: 1em;
+  margin-top: 2em;
+  background-color: #fff;
+}
+
+.span-class {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  border: 1px solid hsl(208, 92%, 48%);
+}
+
+.what-input {
+  width: 18em;
+  padding: 0.5em;
+  margin-left: 3em;
+  border-radius: 2em;
+  border: none;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.hr-middle {
+  width: 24em;
+  margin-top: 1em;
+  color: #ddd;
+}
+
+.live {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+  background: transparent;
+}
+
+.live-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background: transparent;
+}
+
+.lv-icons {
+  background: transparent;
+  font-size: 20px;
+}
+
+div .live p {
+  color: green;
+}
+
+.create-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  border-radius: 1em;
+  background-color: #ddd;
+  padding: 1em;
+  margin-top: 0.9em;
+}
+
+.create-room-stories {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  border: 3px solid hsl(208, 92%, 48%);
+}
+
+.create-room-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border-radius: 1em;
+  border: none;
+  padding: 0.45em;
+  cursor: pointer;
+  background-color: #383838;
+  color: #fff;
+}
+
+.scrolling-page {
+  display: block;
+  margin-top: 1em;
+}
+
+.scrolling-details {
+  width: 300px;
+  height: 310px;
+  margin-top: 1em;
+  margin-left: 1.3em;
+  background-color: white;
+  padding-bottom: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 1px 2px black;
+}
+
+.scroll-heading {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.fi-horizontal {
+  font-size: var(--my-font);
+  margin-left: 4.3em;
+  background-color: transparent;
+}
+
+.scroll-web {
+  margin-left: 0.5em;
+  background-color: transparent;
+}
+
+.scroll-pic {
+  margin-top: -2px;
+  background: transparent;
+}
+
+.scroll-pic-img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.scroll-img {
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  height: 140px;
+  background-image: url("/public/my-pic/wallpaper-preview-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.likes-comment,
+.comment-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0.5em 0 0.5em;
+  background-color: transparent;
+}
+
+.like-emj {
+  background-color: transparent;
+}
+
+.bi-like {
+  font-size: var(--my-font);
+  background-color: blue;
+  border-radius: 50%;
+  padding: 3px;
+  color: #fff;
+}
+
+.md-emj {
+  font-size: var(--my-font);
+  color: rgb(245, 181, 21);
+  background-color: transparent;
+}
+
+.three-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+
+.three-icons-dsgn {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background-color: transparent;
+}
+
+[className = tog_likes] {
+  color: red;
+}
+
+.people-you-may-know {
+  width: 300px;
+  height: 310px;
+  margin-left: 1.3em;
+  margin-top: 1em;
+  padding: 0 0.8em;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 0 1px 2px black;
+}
+
+.people-you-may-know-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: transparent;
+}
+
+.people-you-may-know-icon h4 {
+  background: transparent;
+}
+
+.add-freinds-box {
+  display: flex;
+  gap: 0.5em;
+  height: 250px;
+  overflow-x: scroll;
+  background-color: transparent;
+}
+
+.add-freinds-box::-webkit-scrollbar {
+  display: none;
+}
+
+.add-friends {
+  width: 120px;
+  height: 210px;
+  flex-shrink: 0;
+  margin: 1em 0 1em 0;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 2px black;
+}
+
+.add-friends-img-1 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.add-friends-img-2 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.add-friends-img-3 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.add-friends-img-4 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.add-friends-img-5 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.add-friends-img-6 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.add-friends-img-7 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+.add-friends-img-8 {
+  background-image: url("/public/my-pic/wallpaper-preview-1.jpg");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.friend-name {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.flex-abs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 0.5em;
+  background-color: transparent;
+}
+
+.abs-img,
+.abs-img-1 {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+}
+
+.abs-img {
+  left: 1.5em;
+}
+
+.abs-img-1 {
+  left: 0.5em;
+}
+
+.abs-img-1 + p {
+  margin-left: 5em;
+  font-size: xx-small;
+  background-color: transparent;
+}
+
+.add-friend-button {
+  width: 80px;
+  color: #00f;
+  background-color: #ddd;
+  font-weight: 200px;
+  margin-top: 1.2em;
+  margin-left: 1.5em;
+  padding: 2px;
+  font-size: small;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.add-friend-button:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.reels-video {
+  width: 300px;
+  height: 310px;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: 0 0.8em;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 0 1px 2px black;
+}
+
+.view-reels {
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+.view-reels::-webkit-scrollbar {
+  display: none;
+}
+
+.reels {
+  width: 150px;
+  height: 220px;
+  margin: 1em 0 1em 0;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 2px black;
+}
+
+.show-video {
+  height: 220px;
+  border-radius: 0.5em;
+}
+
+

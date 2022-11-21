@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all-active {
+  position: fixed;
+  width: 200px;
+  height: 450px;
+  overflow-y: auto;
+  font-size: small;
+}
+
+.sg-div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-left: 1em;
+  background: transparent;
+}
+
+.img-div {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+
+.showmore-btn {
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: #ddd;
+  border: none;
+}
+
+.showmore-btn:active {
+  background-color: #00f;
+  color: #fff;
+}
+
+.icons-div {
+  display: block;
+  margin: 1em;
+}
+
+.icon-div-flex {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.all-icons {
+  font-size: 15px;
+  color: blue;
+}
+
+.request-contact {
+  position: fixed;
+  right: 10px;
+  width: 240px;
+  height: 450px;
+  overflow-y: auto;
+  font-size: smaller;
+}
+
+.request {
+  border-radius: 1em;
+  background-color:#ddd;
+}
+
+.request span,
+.request span > h4,
+.request span p {
+  background-color: transparent;
+}
+
+.request span p {
+  color: #00f;
+}
+
+.request span {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.request-list {
+  display: flex;
+  background-color: transparent;
+}
+
+.request-img {
+  width: 3.2em;
+  height: 3.2em;
+  border-radius: 50%;
+}
+
+.request-list h3 {
+  background-color: transparent;
+}
+
+.request-list p {
+  margin-left: 5em;
+  background-color: transparent;
+}
+
+.confirm-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: transparent;
+}
+
+.confirm,
+.delete {
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  font-size: 12px;
+  margin-top: 0.5em;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(197, 191, 191);
+}
+
+.confirm:hover,
+.delete:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.contacts {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: transparent;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-list-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.contact-list-images {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: 1px solid blue;
+  margin-top: 1em;
+}
+
+.isOnline {
+  position: absolute;
+  background-color: green;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  margin-top: 2.5em;
+  margin-left: 1.5em;
+  border: 2px solid #fff;
+}

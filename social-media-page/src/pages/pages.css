@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* sub-pages */
+.sub-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+/* sub-others */
+.sub-video,
+.sub-community,
+.sub-group,
+.sub-game {
+  display: flex;
+  flex-direction: column;
+}
+
+/* child-page */
+.video,
+.community,
+.group,
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+  background:linear-gradient(to right, #120, #034) ;
+  margin-bottom: 20px;
+}
+
+/* top-vid */
+.top-vid {
+  width: 600px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.top-vid > h4 {
+  font-weight: bolder;
+  background-color: transparent;
+}
+
+/* flex-top-vid */
+.flex-top-vid {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: transparent;
+}
+
+/* top-vid-1 */
+.top-vid-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: transparent;
+}
+
+/* top-vid-img */
+.top-vid-img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-image: url("/public/my-pic/sergio.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.top-vid-paragraph {
+  background-color: transparent;
+}
+
+/* game animation */
+.game {
+  position: relative;
+}
+
+.play-game {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(to top, fuchsia 45%, yellow);
+  animation: trans 2s infinite linear ease-in-out;
+}
+
+@keyframes trans {
+  0% {
+    transform: translateX(50%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+}
+
+.video h1,
+.community h1,
+.group h1,
+.game h1 {
+  font-size: 5em;
+  letter-spacing: 5px;
+  background-color: transparent;
+  border-bottom: 5px dashed purple;
+  animation: changeColor 2s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    color: red;
+  }
+  50% {
+    color: greenyellow;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .top-vid,
+  .video,
+  .community,
+  .group,
+  .game {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 890px) {
+  .top-vid {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .flex-top-vid {
+    display: block;
+  }
+  .top-vid-1 {
+    margin: 0.9em;
+  }
+}
