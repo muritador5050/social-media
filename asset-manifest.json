@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/social-media/social-media-page/static/css/main.59561957.css",
-    "main.js": "/social-media/social-media-page/static/js/main.7ea5a3bf.js",
-    "static/media/wallpaper-preview-2.jpg": "/social-media/social-media-page/static/media/wallpaper-preview-2.5a01ad70063ca85491de.jpg",
-    "static/media/wallpaper-preview-3.jpg": "/social-media/social-media-page/static/media/wallpaper-preview-3.5372e3c24ccc60efc2bd.jpg",
-    "static/media/wallpaper-preview-1.jpg": "/social-media/social-media-page/static/media/wallpaper-preview-1.82d354c31781c085d36b.jpg",
-    "static/media/sergio.jpg": "/social-media/social-media-page/static/media/sergio.aa369b8b028a314813fb.jpg",
-    "index.html": "/social-media/social-media-page/index.html",
-    "main.59561957.css.map": "/social-media/social-media-page/static/css/main.59561957.css.map",
-    "main.7ea5a3bf.js.map": "/social-media/social-media-page/static/js/main.7ea5a3bf.js.map"
+    "main.css": "/social-media/static/css/main.2a943434.css",
+    "main.js": "/social-media/static/js/main.7ea5a3bf.js",
+    "static/media/wallpaper-preview-2.jpg": "/social-media/static/media/wallpaper-preview-2.5a01ad70063ca85491de.jpg",
+    "static/media/wallpaper-preview-3.jpg": "/social-media/static/media/wallpaper-preview-3.5372e3c24ccc60efc2bd.jpg",
+    "static/media/wallpaper-preview-1.jpg": "/social-media/static/media/wallpaper-preview-1.82d354c31781c085d36b.jpg",
+    "static/media/sergio.jpg": "/social-media/static/media/sergio.aa369b8b028a314813fb.jpg",
+    "index.html": "/social-media/index.html",
+    "main.2a943434.css.map": "/social-media/static/css/main.2a943434.css.map",
+    "main.7ea5a3bf.js.map": "/social-media/static/js/main.7ea5a3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.59561957.css",
+    "static/css/main.2a943434.css",
     "static/js/main.7ea5a3bf.js"
   ]
 }
